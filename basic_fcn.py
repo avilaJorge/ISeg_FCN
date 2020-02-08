@@ -16,6 +16,7 @@ class FCN(nn.Module):
         self.conv5   = nn.Conv2d(256, 512, kernel_size=3, stride=2, padding=1, dilation=1)
         self.bnd5    = nn.BatchNorm2d(512)
         self.relu    = nn.ReLU(inplace=True)
+        
         self.deconv1 = nn.ConvTranspose2d(512, 512, kernel_size=3, stride=2, padding=1, dilation=1, output_padding=1)
         self.bn1     = nn.BatchNorm2d(512)
         self.deconv2 = nn.ConvTranspose2d(512, 256, kernel_size=3, stride=2, padding=1, dilation=1, output_padding=1)
@@ -26,14 +27,28 @@ class FCN(nn.Module):
         self.bn4     = nn.BatchNorm2d(64)
         self.deconv5 = nn.ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1, dilation=1, output_padding=1)
         self.bn5     = nn.BatchNorm2d(32)
-        self.classifier = nn.Conv2d(32, 3, kernel_size=1)
-
+        self.classifier = nn.Conv2d(32, n_class, kernel_size=1)
+        
+        self.deconv4p = nn.ConvTranspose2d(128, 128, kernel_size=3, stride=2, padding=1, dilation=1, output_padding=1)
+        
     def forward(self, x):
-        x1 = __(self.relu(__(x)))
-        # Complete the forward function for the rest of the encoder
-
-        score = __(self.relu(__(out_encoder)))     
-        # Complete the forward function for the rest of the decoder
+        
+        #Cutting out a lot of layers, hoping to speed it up
+        
+        x1 = self.bnd1(self.relu(self.conv1(x)))
+        x2 = self.bnd2(self.relu(self.conv2(x1)))
+        x3 = self.bnd3(self.relu(self.conv3(x2)))
+        #x4 = self.bnd4(self.relu(self.conv4(x3)))
+        #x5 = self.bnd5(self.relu(self.conv5(x4)))
+        #out_encoder = x5
+        
+        #x6 = self.bn1(self.relu(self.deconv1(out_encoder)))
+        #x7 = self.bn2(self.relu(self.deconv2(x6)))
+        #x8 = self.bn3(self.relu(self.deconv3(x7)))
+        x8 = self.bn3(self.relu(self.deconv4p(x3)))
+        x9 = self.bn4(self.relu(self.deconv4(x8)))
+        x10 = self.bn5(self.relu(self.deconv5(x9)))
+        out_decoder = x10
         
         score = self.classifier(out_decoder)                   
 
