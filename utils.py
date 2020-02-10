@@ -1,9 +1,10 @@
+import torch
 def iou(pred, target):
     ious = []
     for cls in range(34):
         # Complete this function
-        intersection = ((pred == cls) & (target == cls)).sum()
-        union = ((pred == cls) | (target == cls)).sum()
+        intersection = ((pred == cls) & (target == cls)).sum().float()
+        union = ((pred == cls) | (target == cls)).sum().float()
         if union == 0:
             ious.append(float('nan'))  # if there is no ground truth, do not include in evaluation
         else:
@@ -14,4 +15,4 @@ def iou(pred, target):
 
 def pixel_acc(pred, target):
     #Complete this function
-    return float((pred == target).sum() / pred.nelement())
+    return float((pred == target).sum().float() / pred.nelement())
