@@ -568,3 +568,12 @@ epoch17, iter570, loss: 2.973339557647705
 epoch17, iter580, loss: 3.006377935409546 
 epoch17, iter590, loss: 2.930826425552368 
 Finish epoch 17, time elapsed 1371.7265667915344 
+Training Check:	Loss: 2.976088	Accuracy: 59.961287	IoU: 0.067901 
+Validation Results: Loss: 2.982659	Accuracy: 59.304526	IoU: 0.066320 
+epoch18, iter0, loss: 2.929800271987915 
+epoch18, iter10, loss: 2.9998857975006104 
+epoch18, iter20, loss: 2.9433507919311523 
+epoch18, iter30, loss: 2.985100030899048 
+epoch18, iter40, loss: 2.9420368671417236 
+epoch18, iter50, loss: 2.945758819580078 
+epoch18, iter60, loss: 2.9871137142181396 
