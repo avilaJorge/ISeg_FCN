@@ -78,6 +78,13 @@ labels_classes = [
     Label(  'motorcycle'           , 32 ,       17 , 'vehicle'         , 7       , True         , False        , (  0,  0,230) ),
     Label(  'bicycle'              , 33 ,       18 , 'vehicle'         , 7       , True         , False        , (119, 11, 32) )
 ]
+            
+valid_ids = [7, 8, 11, 12, 13, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 33]
+building = 2
+traffic_sign = 7
+person = 11
+car = 13
+bicycle = 18
 
 class CityScapesDataset(Dataset):
 
@@ -111,7 +118,7 @@ class CityScapesDataset(Dataset):
         # create one-hot encoding
         h, w = label.shape
         target = torch.zeros(self.n_class, h, w)
-#         for c in range(self.n_class):
-#             target[c][label == c] = 1
+        for c in range(self.n_class):
+            target[c][label == c] = 1
 
         return img, target, label
