@@ -112,11 +112,11 @@ def init_weights(m):
         m.bias.data.zero_()
 
 epochs     = 100
-start_epoch = 9
+start_epoch = 16
 criterion = torch.nn.CrossEntropyLoss()
 fcn_model = FCN_bak(n_class=34)
 # fcn_model.apply(init_weights)
-fcn_model.load_state_dict(torch.load('model_02_12_01_16.pt'))
+fcn_model.load_state_dict(torch.load('model_02_12_12_06.pt'))
 optimizer = optim.Adam(fcn_model.parameters(), lr=5e-1)
 
 dt = datetime.now().strftime("%m_%d_%H_%M")
