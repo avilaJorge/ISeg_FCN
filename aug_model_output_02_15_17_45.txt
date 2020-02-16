@@ -1,0 +1,376 @@
+Started: 2020-02-15 17:45:16.976929
+From a previously trained model which left off on start of epoch 9.
+Started: 2020-02-15 17:45:54.831319
+From a previously trained model which left off on start of epoch 9.
+epoch0, iter0, loss: 2.979325771331787 
+epoch0, iter10, loss: 2.9778151512145996 
+epoch0, iter20, loss: 2.9655869007110596 
+Finish epoch 0, time elapsed 74.54431104660034 
+Training Check:	Loss: 2.967469	Accuracy: 60.926256	IoU: 0.225628 
+Best Loss: 2.994997239112854
+Validation Results: Loss: 2.994997	Accuracy: 58.127763	IoU: 0.209159 
+epoch1, iter0, loss: 2.99088191986084 
+epoch1, iter10, loss: 3.009932279586792 
+epoch1, iter20, loss: 2.9786887168884277 
+Finish epoch 1, time elapsed 78.03389096260071 
+Training Check:	Loss: 2.962812	Accuracy: 61.374176	IoU: 0.227863 
+Best Loss: 2.994988405704498
+Validation Results: Loss: 2.994988	Accuracy: 58.124344	IoU: 0.208801 
+epoch2, iter0, loss: 2.973871946334839 
+epoch2, iter10, loss: 2.985701084136963 
+epoch2, iter20, loss: 2.924131393432617 
+Finish epoch 2, time elapsed 74.52140545845032 
+Training Check:	Loss: 2.962419	Accuracy: 61.405927	IoU: 0.227886 
+Best Loss: 2.9946510672569273
+Validation Results: Loss: 2.994651	Accuracy: 58.163815	IoU: 0.208785 
+epoch3, iter0, loss: 2.948103427886963 
+epoch3, iter10, loss: 2.9360404014587402 
+epoch3, iter20, loss: 2.9972083568573 
+Finish epoch 3, time elapsed 75.14589762687683 
+Training Check:	Loss: 2.969065	Accuracy: 60.765412	IoU: 0.225058 
+Best Loss: 2.9934585094451904
+Validation Results: Loss: 2.993459	Accuracy: 58.274831	IoU: 0.209395 
+epoch4, iter0, loss: 2.9032223224639893 
+epoch4, iter10, loss: 2.9763736724853516 
+epoch4, iter20, loss: 3.051710605621338 
+Finish epoch 4, time elapsed 74.93750190734863 
+Training Check:	Loss: 2.962909	Accuracy: 61.357685	IoU: 0.227109 
+Validation Results: Loss: 2.995248	Accuracy: 58.103680	IoU: 0.208724 
+epoch5, iter0, loss: 2.938392162322998 
+epoch5, iter10, loss: 2.9953150749206543 
+epoch5, iter20, loss: 2.9558205604553223 
+Finish epoch 5, time elapsed 74.7019567489624 
+Training Check:	Loss: 2.961919	Accuracy: 61.450747	IoU: 0.227784 
+Validation Results: Loss: 2.994573	Accuracy: 58.170098	IoU: 0.208793 
+epoch6, iter0, loss: 2.97593092918396 
+epoch6, iter10, loss: 2.8961374759674072 
+epoch6, iter20, loss: 2.959242105484009 
+Finish epoch 6, time elapsed 75.1017394065857 
+Training Check:	Loss: 2.969953	Accuracy: 60.660180	IoU: 0.224777 
+Validation Results: Loss: 2.993678	Accuracy: 58.258246	IoU: 0.209321 
+epoch7, iter0, loss: 2.9676365852355957 
+epoch7, iter10, loss: 3.042127847671509 
+epoch7, iter20, loss: 2.9687743186950684 
+Finish epoch 7, time elapsed 75.0143346786499 
+Training Check:	Loss: 2.967677	Accuracy: 60.888584	IoU: 0.225159 
+Validation Results: Loss: 2.993636	Accuracy: 58.253805	IoU: 0.209277 
+epoch8, iter0, loss: 2.9850199222564697 
+epoch8, iter10, loss: 2.9896442890167236 
+epoch8, iter20, loss: 2.9833741188049316 
+Finish epoch 8, time elapsed 74.2642593383789 
+Training Check:	Loss: 2.965089	Accuracy: 61.141809	IoU: 0.225622 
+Validation Results: Loss: 2.994719	Accuracy: 58.150263	IoU: 0.208653 
+epoch9, iter0, loss: 2.9105169773101807 
+epoch9, iter10, loss: 2.9238367080688477 
+epoch9, iter20, loss: 2.9191484451293945 
+Finish epoch 9, time elapsed 74.48480105400085 
+Training Check:	Loss: 2.969316	Accuracy: 60.725816	IoU: 0.224668 
+Best Loss: 2.992758810520172
+Validation Results: Loss: 2.992759	Accuracy: 58.343435	IoU: 0.209816 
+epoch10, iter0, loss: 2.9841771125793457 
+epoch10, iter10, loss: 2.918025016784668 
+epoch10, iter20, loss: 2.9615302085876465 
+Finish epoch 10, time elapsed 75.50777649879456 
+Training Check:	Loss: 2.969302	Accuracy: 60.728478	IoU: 0.224859 
+Validation Results: Loss: 2.996452	Accuracy: 57.981314	IoU: 0.208272 
+epoch11, iter0, loss: 2.9517757892608643 
+epoch11, iter10, loss: 2.97938871383667 
+epoch11, iter20, loss: 2.888188362121582 
+Finish epoch 11, time elapsed 75.54038786888123 
+Training Check:	Loss: 2.963802	Accuracy: 61.260016	IoU: 0.227162 
+Validation Results: Loss: 2.994740	Accuracy: 58.143446	IoU: 0.208867 
+epoch12, iter0, loss: 2.932436227798462 
+epoch12, iter10, loss: 3.0338292121887207 
+epoch12, iter20, loss: 2.9983062744140625 
+Finish epoch 12, time elapsed 72.95619130134583 
+Training Check:	Loss: 2.966768	Accuracy: 60.977454	IoU: 0.225556 
+Best Loss: 2.992570924758911
+Validation Results: Loss: 2.992571	Accuracy: 58.360707	IoU: 0.209813 
+epoch13, iter0, loss: 3.0071523189544678 
+epoch13, iter10, loss: 2.925384998321533 
+epoch13, iter20, loss: 2.992832660675049 
+Finish epoch 13, time elapsed 80.10639715194702 
+Training Check:	Loss: 2.965928	Accuracy: 61.048964	IoU: 0.226170 
+Validation Results: Loss: 2.994174	Accuracy: 58.207161	IoU: 0.209450 
+epoch14, iter0, loss: 2.9315059185028076 
+epoch14, iter10, loss: 2.999786615371704 
+epoch14, iter20, loss: 2.938023805618286 
+Finish epoch 14, time elapsed 79.42113018035889 
+Training Check:	Loss: 2.965018	Accuracy: 61.151541	IoU: 0.225987 
+Validation Results: Loss: 2.993378	Accuracy: 58.283230	IoU: 0.209665 
+epoch15, iter0, loss: 2.991804361343384 
+epoch15, iter10, loss: 2.9955570697784424 
+epoch15, iter20, loss: 2.9270076751708984 
+Finish epoch 15, time elapsed 73.21128058433533 
+Training Check:	Loss: 2.966109	Accuracy: 61.038703	IoU: 0.226227 
+Validation Results: Loss: 2.995435	Accuracy: 58.080916	IoU: 0.208384 
+epoch16, iter0, loss: 2.962132453918457 
+epoch16, iter10, loss: 2.9709789752960205 
+epoch16, iter20, loss: 3.0729613304138184 
+Finish epoch 16, time elapsed 79.7739462852478 
+Training Check:	Loss: 2.963020	Accuracy: 61.346188	IoU: 0.226727 
+Validation Results: Loss: 2.994430	Accuracy: 58.173259	IoU: 0.208845 
+epoch17, iter0, loss: 2.9941296577453613 
+epoch17, iter10, loss: 2.9714133739471436 
+epoch17, iter20, loss: 2.9388949871063232 
+Finish epoch 17, time elapsed 77.88697004318237 
+Training Check:	Loss: 2.964461	Accuracy: 61.202180	IoU: 0.226869 
+Validation Results: Loss: 2.994750	Accuracy: 58.143000	IoU: 0.208560 
+epoch18, iter0, loss: 2.9020543098449707 
+epoch18, iter10, loss: 2.918503999710083 
+epoch18, iter20, loss: 2.9872987270355225 
+Finish epoch 18, time elapsed 81.49718308448792 
+Training Check:	Loss: 2.966525	Accuracy: 61.011431	IoU: 0.226270 
+Validation Results: Loss: 2.995163	Accuracy: 58.098437	IoU: 0.208660 
+epoch19, iter0, loss: 2.9837193489074707 
+epoch19, iter10, loss: 3.0557384490966797 
+epoch19, iter20, loss: 2.9570603370666504 
+Finish epoch 19, time elapsed 80.24893260002136 
+Training Check:	Loss: 2.961944	Accuracy: 61.450128	IoU: 0.228032 
+Validation Results: Loss: 2.992752	Accuracy: 58.338058	IoU: 0.209796 
+epoch20, iter0, loss: 2.934352159500122 
+epoch20, iter10, loss: 2.911407947540283 
+epoch20, iter20, loss: 3.063739776611328 
+Finish epoch 20, time elapsed 78.09421253204346 
+Training Check:	Loss: 2.966491	Accuracy: 60.995918	IoU: 0.226194 
+Validation Results: Loss: 2.993628	Accuracy: 58.253917	IoU: 0.209810 
+epoch21, iter0, loss: 2.9608397483825684 
+epoch21, iter10, loss: 2.9325027465820312 
+epoch21, iter20, loss: 2.8978588581085205 
+Finish epoch 21, time elapsed 74.33187246322632 
+Training Check:	Loss: 2.968197	Accuracy: 60.829604	IoU: 0.224991 
+Validation Results: Loss: 2.993556	Accuracy: 58.265149	IoU: 0.209170 
+epoch22, iter0, loss: 2.9528887271881104 
+epoch22, iter10, loss: 2.974862575531006 
+epoch22, iter20, loss: 2.923676013946533 
+Finish epoch 22, time elapsed 73.38920760154724 
+Training Check:	Loss: 2.963526	Accuracy: 61.280778	IoU: 0.226658 
+Validation Results: Loss: 2.994579	Accuracy: 58.171804	IoU: 0.209166 
+epoch23, iter0, loss: 3.013091564178467 
+epoch23, iter10, loss: 2.962956428527832 
+epoch23, iter20, loss: 2.9249420166015625 
+Finish epoch 23, time elapsed 75.11529088020325 
+Training Check:	Loss: 2.965177	Accuracy: 61.127927	IoU: 0.226455 
+Validation Results: Loss: 2.995934	Accuracy: 58.025856	IoU: 0.208549 
+epoch24, iter0, loss: 2.9109768867492676 
+epoch24, iter10, loss: 3.036501169204712 
+epoch24, iter20, loss: 2.9831013679504395 
+Finish epoch 24, time elapsed 74.47412037849426 
+Training Check:	Loss: 2.963778	Accuracy: 61.266786	IoU: 0.227229 
+Validation Results: Loss: 2.994743	Accuracy: 58.141672	IoU: 0.208586 
+epoch25, iter0, loss: 2.996931552886963 
+epoch25, iter10, loss: 2.901655673980713 
+epoch25, iter20, loss: 2.9421494007110596 
+Finish epoch 25, time elapsed 74.72079849243164 
+Training Check:	Loss: 2.964838	Accuracy: 61.162958	IoU: 0.226821 
+Validation Results: Loss: 2.994699	Accuracy: 58.151523	IoU: 0.208809 
+epoch26, iter0, loss: 2.988823175430298 
+epoch26, iter10, loss: 2.9717981815338135 
+epoch26, iter20, loss: 2.956900119781494 
+Finish epoch 26, time elapsed 74.05442237854004 
+Training Check:	Loss: 2.962607	Accuracy: 61.380954	IoU: 0.227735 
+Validation Results: Loss: 2.993769	Accuracy: 58.239573	IoU: 0.209195 
+epoch27, iter0, loss: 2.999147415161133 
+epoch27, iter10, loss: 2.984311819076538 
+epoch27, iter20, loss: 3.0233893394470215 
+Finish epoch 27, time elapsed 74.84563493728638 
+Training Check:	Loss: 2.964943	Accuracy: 61.153466	IoU: 0.226565 
+Validation Results: Loss: 2.996453	Accuracy: 57.981447	IoU: 0.208270 
+epoch28, iter0, loss: 3.026299476623535 
+epoch28, iter10, loss: 2.9690515995025635 
+epoch28, iter20, loss: 2.933786153793335 
+Finish epoch 28, time elapsed 77.9328043460846 
+Training Check:	Loss: 2.962265	Accuracy: 61.409054	IoU: 0.227186 
+Validation Results: Loss: 2.993311	Accuracy: 58.286780	IoU: 0.209640 
+epoch29, iter0, loss: 2.9102230072021484 
+epoch29, iter10, loss: 3.0315628051757812 
+epoch29, iter20, loss: 2.9772415161132812 
+Finish epoch 29, time elapsed 79.85701107978821 
+Training Check:	Loss: 2.969296	Accuracy: 60.728716	IoU: 0.224900 
+Validation Results: Loss: 2.995026	Accuracy: 58.122949	IoU: 0.209047 
+epoch30, iter0, loss: 2.9673309326171875 
+epoch30, iter10, loss: 2.8931596279144287 
+epoch30, iter20, loss: 2.9944968223571777 
+Finish epoch 30, time elapsed 75.63008785247803 
+Training Check:	Loss: 2.963947	Accuracy: 61.242757	IoU: 0.227222 
+Validation Results: Loss: 2.993220	Accuracy: 58.297509	IoU: 0.209315 
+epoch31, iter0, loss: 2.9603872299194336 
+epoch31, iter10, loss: 2.9281487464904785 
+epoch31, iter20, loss: 2.9157557487487793 
+Finish epoch 31, time elapsed 79.38635802268982 
+Training Check:	Loss: 2.961549	Accuracy: 61.485275	IoU: 0.228111 
+Validation Results: Loss: 2.994362	Accuracy: 58.185778	IoU: 0.209193 
+epoch32, iter0, loss: 2.9029390811920166 
+epoch32, iter10, loss: 3.0563125610351562 
+epoch32, iter20, loss: 2.9249022006988525 
+Finish epoch 32, time elapsed 82.4385633468628 
+Training Check:	Loss: 2.966031	Accuracy: 61.041592	IoU: 0.225895 
+Validation Results: Loss: 2.993630	Accuracy: 58.257091	IoU: 0.209405 
+epoch33, iter0, loss: 3.0936851501464844 
+epoch33, iter10, loss: 2.9202651977539062 
+epoch33, iter20, loss: 2.956395387649536 
+Finish epoch 33, time elapsed 75.72164988517761 
+Training Check:	Loss: 2.964207	Accuracy: 61.222219	IoU: 0.226911 
+Validation Results: Loss: 2.993723	Accuracy: 58.244142	IoU: 0.209303 
+epoch34, iter0, loss: 2.991554021835327 
+epoch34, iter10, loss: 2.9832491874694824 
+epoch34, iter20, loss: 2.949704885482788 
+Finish epoch 34, time elapsed 76.4051742553711 
+Training Check:	Loss: 2.961118	Accuracy: 61.521521	IoU: 0.227749 
+Validation Results: Loss: 2.994306	Accuracy: 58.197960	IoU: 0.209291 
+epoch35, iter0, loss: 2.978823184967041 
+epoch35, iter10, loss: 2.9359829425811768 
+epoch35, iter20, loss: 2.978415012359619 
+Finish epoch 35, time elapsed 75.74293160438538 
+Training Check:	Loss: 2.965139	Accuracy: 61.129977	IoU: 0.226925 
+Validation Results: Loss: 2.993917	Accuracy: 58.231148	IoU: 0.209210 
+epoch36, iter0, loss: 2.983393669128418 
+epoch36, iter10, loss: 3.0382955074310303 
+epoch36, iter20, loss: 2.9885408878326416 
+Finish epoch 36, time elapsed 77.80120134353638 
+Training Check:	Loss: 2.963563	Accuracy: 61.282213	IoU: 0.227009 
+Validation Results: Loss: 2.994141	Accuracy: 58.210628	IoU: 0.209212 
+epoch37, iter0, loss: 3.034468650817871 
+epoch37, iter10, loss: 3.010129928588867 
+epoch37, iter20, loss: 2.9331939220428467 
+Finish epoch 37, time elapsed 75.55240106582642 
+Training Check:	Loss: 2.963773	Accuracy: 61.264284	IoU: 0.227048 
+Best Loss: 2.992438542842865
+Validation Results: Loss: 2.992439	Accuracy: 58.373166	IoU: 0.209998 
+epoch38, iter0, loss: 2.9843146800994873 
+epoch38, iter10, loss: 3.009161949157715 
+epoch38, iter20, loss: 2.932215690612793 
+Finish epoch 38, time elapsed 74.7197060585022 
+Training Check:	Loss: 2.963197	Accuracy: 61.323587	IoU: 0.227372 
+Validation Results: Loss: 2.993381	Accuracy: 58.278208	IoU: 0.209699 
+epoch39, iter0, loss: 2.9845871925354004 
+epoch39, iter10, loss: 2.9529290199279785 
+epoch39, iter20, loss: 2.962669849395752 
+Finish epoch 39, time elapsed 75.48460340499878 
+Training Check:	Loss: 2.962962	Accuracy: 61.338875	IoU: 0.227742 
+Validation Results: Loss: 2.995742	Accuracy: 58.039024	IoU: 0.208348 
+epoch40, iter0, loss: 2.9384443759918213 
+epoch40, iter10, loss: 2.9753730297088623 
+epoch40, iter20, loss: 2.952174663543701 
+Finish epoch 40, time elapsed 75.66713690757751 
+Training Check:	Loss: 2.966113	Accuracy: 61.030586	IoU: 0.226165 
+Validation Results: Loss: 2.993388	Accuracy: 58.281148	IoU: 0.209413 
+epoch41, iter0, loss: 3.0381052494049072 
+epoch41, iter10, loss: 2.923438549041748 
+epoch41, iter20, loss: 3.0054919719696045 
+Finish epoch 41, time elapsed 74.67984390258789 
+Training Check:	Loss: 2.964058	Accuracy: 61.234025	IoU: 0.227088 
+Validation Results: Loss: 2.994574	Accuracy: 58.155046	IoU: 0.209149 
+epoch42, iter0, loss: 2.9345381259918213 
+epoch42, iter10, loss: 3.0192389488220215 
+epoch42, iter20, loss: 2.943243980407715 
+Finish epoch 42, time elapsed 75.93305253982544 
+Training Check:	Loss: 2.961591	Accuracy: 61.485913	IoU: 0.228371 
+Validation Results: Loss: 2.994634	Accuracy: 58.153120	IoU: 0.208849 
+epoch43, iter0, loss: 2.9021928310394287 
+epoch43, iter10, loss: 2.922636032104492 
+epoch43, iter20, loss: 2.9794869422912598 
+Finish epoch 43, time elapsed 75.03857612609863 
+Training Check:	Loss: 2.966869	Accuracy: 60.952302	IoU: 0.225803 
+Validation Results: Loss: 2.993831	Accuracy: 58.233124	IoU: 0.209958 
+epoch44, iter0, loss: 2.9760775566101074 
+epoch44, iter10, loss: 2.9523086547851562 
+epoch44, iter20, loss: 2.9143359661102295 
+Finish epoch 44, time elapsed 75.33724856376648 
+Training Check:	Loss: 2.968152	Accuracy: 60.833516	IoU: 0.225662 
+Validation Results: Loss: 2.993493	Accuracy: 58.270128	IoU: 0.209348 
+epoch45, iter0, loss: 2.964146137237549 
+epoch45, iter10, loss: 2.97184157371521 
+epoch45, iter20, loss: 2.999541759490967 
+Finish epoch 45, time elapsed 74.7596685886383 
+Training Check:	Loss: 2.965321	Accuracy: 61.113411	IoU: 0.226536 
+Validation Results: Loss: 2.995867	Accuracy: 58.034455	IoU: 0.208189 
+epoch46, iter0, loss: 2.9970927238464355 
+epoch46, iter10, loss: 2.9382405281066895 
+epoch46, iter20, loss: 2.9113380908966064 
+Finish epoch 46, time elapsed 74.66263437271118 
+Training Check:	Loss: 2.963689	Accuracy: 61.268286	IoU: 0.226993 
+Validation Results: Loss: 2.993981	Accuracy: 58.217135	IoU: 0.208932 
+epoch47, iter0, loss: 3.0230281352996826 
+epoch47, iter10, loss: 2.949658155441284 
+epoch47, iter20, loss: 2.9555301666259766 
+Finish epoch 47, time elapsed 74.64249730110168 
+Training Check:	Loss: 2.962215	Accuracy: 61.418886	IoU: 0.227430 
+Validation Results: Loss: 2.994308	Accuracy: 58.189008	IoU: 0.209948 
+epoch48, iter0, loss: 2.941073417663574 
+epoch48, iter10, loss: 2.9760382175445557 
+epoch48, iter20, loss: 2.9007084369659424 
+Finish epoch 48, time elapsed 74.05861687660217 
+Training Check:	Loss: 2.966326	Accuracy: 61.020992	IoU: 0.225670 
+Validation Results: Loss: 2.995398	Accuracy: 58.080326	IoU: 0.208411 
+epoch49, iter0, loss: 2.993948459625244 
+epoch49, iter10, loss: 2.9040579795837402 
+epoch49, iter20, loss: 2.9538474082946777 
+Finish epoch 49, time elapsed 75.85486817359924 
+Training Check:	Loss: 2.967448	Accuracy: 60.909032	IoU: 0.225054 
+Validation Results: Loss: 2.995412	Accuracy: 58.081996	IoU: 0.208520 
+epoch50, iter0, loss: 2.956547975540161 
+epoch50, iter10, loss: 2.9017443656921387 
+epoch50, iter20, loss: 2.934094190597534 
+Finish epoch 50, time elapsed 74.02785086631775 
+Training Check:	Loss: 2.960596	Accuracy: 61.579346	IoU: 0.228238 
+Validation Results: Loss: 2.993446	Accuracy: 58.278234	IoU: 0.209452 
+epoch51, iter0, loss: 3.072822093963623 
+epoch51, iter10, loss: 2.913356304168701 
+epoch51, iter20, loss: 2.912130832672119 
+Finish epoch 51, time elapsed 73.58268713951111 
+Training Check:	Loss: 2.958950	Accuracy: 61.737004	IoU: 0.228093 
+Validation Results: Loss: 2.992791	Accuracy: 58.337167	IoU: 0.209990 
+epoch52, iter0, loss: 2.952054500579834 
+epoch52, iter10, loss: 3.0374536514282227 
+epoch52, iter20, loss: 3.0239951610565186 
+Finish epoch 52, time elapsed 73.21670579910278 
+Training Check:	Loss: 2.961504	Accuracy: 61.489797	IoU: 0.227963 
+Validation Results: Loss: 2.993722	Accuracy: 58.248644	IoU: 0.209680 
+epoch53, iter0, loss: 3.01474666595459 
+epoch53, iter10, loss: 2.9226233959198 
+epoch53, iter20, loss: 2.9503173828125 
+Finish epoch 53, time elapsed 74.62190365791321 
+Training Check:	Loss: 2.966774	Accuracy: 60.969543	IoU: 0.226035 
+Validation Results: Loss: 2.994791	Accuracy: 58.140117	IoU: 0.209448 
+epoch54, iter0, loss: 3.0249228477478027 
+epoch54, iter10, loss: 2.964400291442871 
+epoch54, iter20, loss: 2.9714646339416504 
+Finish epoch 54, time elapsed 73.39048933982849 
+Training Check:	Loss: 2.968795	Accuracy: 60.770316	IoU: 0.224640 
+Validation Results: Loss: 2.994925	Accuracy: 58.130818	IoU: 0.208457 
+epoch55, iter0, loss: 3.0489630699157715 
+epoch55, iter10, loss: 3.0565953254699707 
+epoch55, iter20, loss: 2.926288604736328 
+Finish epoch 55, time elapsed 74.79167699813843 
+Training Check:	Loss: 2.960969	Accuracy: 61.533135	IoU: 0.227521 
+Validation Results: Loss: 2.993731	Accuracy: 58.243294	IoU: 0.209193 
+epoch56, iter0, loss: 2.973421812057495 
+epoch56, iter10, loss: 2.9862942695617676 
+epoch56, iter20, loss: 2.9978766441345215 
+Finish epoch 56, time elapsed 75.88591480255127 
+Training Check:	Loss: 2.965572	Accuracy: 61.086416	IoU: 0.225880 
+Validation Results: Loss: 2.993880	Accuracy: 58.235261	IoU: 0.209287 
+epoch57, iter0, loss: 2.9753594398498535 
+epoch57, iter10, loss: 3.062748908996582 
+epoch57, iter20, loss: 2.9386258125305176 
+Finish epoch 57, time elapsed 81.70229172706604 
+Training Check:	Loss: 2.961255	Accuracy: 61.507659	IoU: 0.227979 
+Validation Results: Loss: 2.993390	Accuracy: 58.280940	IoU: 0.209614 
+epoch58, iter0, loss: 2.9694089889526367 
+epoch58, iter10, loss: 2.9651107788085938 
+epoch58, iter20, loss: 2.971207618713379 
+Finish epoch 58, time elapsed 75.07659077644348 
+Training Check:	Loss: 2.966120	Accuracy: 61.035630	IoU: 0.225744 
+Validation Results: Loss: 2.995666	Accuracy: 58.056554	IoU: 0.208864 
+epoch59, iter0, loss: 3.0522491931915283 
+epoch59, iter10, loss: 2.9282619953155518 
+epoch59, iter20, loss: 3.0120081901550293 
+Finish epoch 59, time elapsed 75.61859226226807 
+Training Check:	Loss: 2.965748	Accuracy: 61.070296	IoU: 0.226433 
+Validation Results: Loss: 2.992770	Accuracy: 58.344078	IoU: 0.209768 
+epoch60, iter0, loss: 2.9456334114074707 
+epoch60, iter10, loss: 2.930603265762329 
+epoch60, iter20, loss: 2.940129518508911 
+Finish epoch 60, time elapsed 76.0589861869812 
+Training Check:	Loss: 2.964635	Accuracy: 61.177668	IoU: 0.226742 

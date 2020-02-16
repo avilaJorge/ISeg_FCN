@@ -101,26 +101,32 @@ class AugmentedCityScapesDataset(Dataset):
 
 
         # Random crop
-        if resample:
-            # Resize
-            resize = transforms.Resize(size=(1280, 2560))
-            image = resize(image)
-            label = resize(label)
-            self.crop_indices = transforms.RandomCrop.get_params(
-                image, output_size=(1024, 2048))
-            i, j, h, w = self.crop_indices
-            image = TF.crop(image, i, j, h, w)
-            label = TF.crop(label, i, j, h, w)
+        #if resample:
+        #    # Resize
+        #    resize = transforms.Resize(size=(1280, 2560))
+        #    image = resize(image)
+        #    label = resize(label)
+        #    self.crop_indices = transforms.RandomCrop.get_params(
+        #        image, output_size=(1024, 2048))
+        #    i, j, h, w = self.crop_indices
+        #    image = TF.crop(image, i, j, h, w)
+        #    label = TF.crop(label, i, j, h, w)
 
         # Random horizontal flipping
-        if random.random() > 0.5:
+        if random.random() > 0.10:
             image = TF.hflip(image)
             label = TF.hflip(label)
 
         # Random vertical flipping
-        if random.random() > 0.5:
-            image = TF.vflip(image)
-            label = TF.vflip(label)
+        #if random.random() > 0.25:
+        #    image = TF.vflip(image)
+        #    label = TF.vflip(label)
+            
+        # Random rotation
+        if random.random() > 0.10:
+            deg = random.uniform(-10, 10)
+            image = TF.rotate(image, deg)
+            label = TF.rotate(label, deg)
 
         # Transform to tensor
         return image, label
