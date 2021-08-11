@@ -80,11 +80,19 @@ labels_classes = [
 ]
             
 valid_ids = [7, 8, 11, 12, 13, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 33]
-building = 2
-traffic_sign = 7
-person = 11
-car = 13
-bicycle = 18
+building = 11
+traffic_sign = 20
+person = 24
+car = 26
+bicycle = 33
+report_ids = [11, 20, 24, 26, 33]
+rprt_id_dict = {
+  11: 'building',
+  20: 'traffic sign',
+  24: 'person',
+  26: 'car',
+  33: 'bicycle'
+}
 
 class CityScapesDataset(Dataset):
 
@@ -115,10 +123,84 @@ class CityScapesDataset(Dataset):
         img = torch.from_numpy(img.copy()).float()
         label = torch.from_numpy(label.copy()).long()
 
-        # create one-hot encoding
-        h, w = label.shape
-        target = torch.zeros(self.n_class, h, w)
-        for c in range(self.n_class):
-            target[c][label == c] = 1
+        target=0
+
+        return img, target, label
+
+class CityScapesDatasetResize(Dataset):
+
+    def __init__(self, csv_file, img_size=(256,512), n_class=n_class, transforms=None):
+        self.data      = pd.read_csv(csv_file)
+        self.means     = means
+        self.n_class   = n_class
+        self.img_size  = img_size
+        # Add any transformations here
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        img_name   = self.data.iloc[idx, 0]
+
+        img = np.asarray(Image.open(img_name).convert('RGB'))
+        label_name = self.data.iloc[idx, 1]
+        label      = np.asarray(Image.open(label_name))
+
+        # reduce mean
+        img = img[:, :, ::-1]  # switch to BGR
+        img = np.transpose(img, (2, 0, 1)) / 255.
+        img[0] -= self.means[0]
+        img[1] -= self.means[1]
+        img[2] -= self.means[2]
+
+        # convert to tensor
+        img = torch.from_numpy(img.copy()).float()
+        label = torch.from_numpy(label.copy()).float()
+
+        img = img.unsqueeze(0)
+        label = label.unsqueeze(0).unsqueeze(0)
+
+        img = torch.nn.functional.interpolate(input=img, size=self.img_size)
+        label = torch.nn.functional.interpolate(input=label, size=self.img_size)
+        img = img.squeeze(0)
+        label = label.squeeze(0).squeeze(0).long()
+        target=0
+
+        return img, target, label
+
+class CityScapesValidationDataset(Dataset):
+
+    def __init__(self, csv_file, img_size=(256,512), n_class=n_class, transforms=None):
+        self.data      = pd.read_csv(csv_file)
+        self.means     = means
+        self.n_class   = n_class
+        self.img_size  = img_size
+        # Add any transformations here
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, idx):
+        img_name   = self.data.iloc[idx, 0]
+
+        img = np.asarray(Image.open(img_name).convert('RGB'))
+        label_name = self.data.iloc[idx, 1]
+        label      = np.asarray(Image.open(label_name))
+
+        # reduce mean
+        img = img[:, :, ::-1]  # switch to BGR
+        img = np.transpose(img, (2, 0, 1)) / 255.
+        img[0] -= self.means[0]
+        img[1] -= self.means[1]
+        img[2] -= self.means[2]
+
+        # convert to tensor
+        img = torch.from_numpy(img.copy()).float()
+        label = torch.from_numpy(label.copy()).long()
+        
+        img = img.unsqueeze(0)
+        img = torch.nn.functional.interpolate(input=img, size=self.img_size)
+        img = img.squeeze(0)
+        target=0
 
         return img, target, label
